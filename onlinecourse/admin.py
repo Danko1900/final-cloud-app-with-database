@@ -8,6 +8,7 @@ class QuestionInLine(admin.StackedInline):
 
 class ChoiceInLine(admin.StackedInline):
     model = Choice
+    extra = 4
 
 class LessonInline(admin.StackedInline):
     model = Lesson
